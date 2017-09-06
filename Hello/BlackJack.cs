@@ -30,6 +30,8 @@ namespace Hello
                 {
                     System.Console.WriteLine("You lose.");
                 }
+                System.Console.Write("Press any key to continue...");
+                Console.ReadKey();
             }
         }
     }
