@@ -4,23 +4,24 @@
  * 9.1.2017 */
 namespace Hello
 {
-  class Henkilo
+  /*class Henkilo
   {
     public string Nimi { get; set; }
     public int Ika { get; set; }
-  }
+  }*/
   class Testi
   {
     static void Main(string[] args)
     {
-      //käytä Mainia ohjelmien kutsumiseen, älä kirjoita koodia tänne vaan aliohjelmiin
-      //SayHello();
-      //ShowNames();
-      //staattisen ohjelman kutsuminen toisesta luokasta
-      Hello.Lotto.DrawLotto();
+            //käytä Mainia ohjelmien kutsumiseen, älä kirjoita koodia tänne vaan aliohjelmiin
+            //SayHello();
+            //ShowNames();
+            //staattisen ohjelman kutsuminen toisesta luokasta
+            //Hello.Lotto.DrawLotto();
+            Hello.BlackJack.Play();
     }
 
-    static void ShowNames()
+    /*static void ShowNames()
     {
       //Ohjelma kysyy käyttäjältä viisi käyttäjänimeä ja tallentaa ne taulukkoon.
       //Ohjelma tulostaa annetut nimet konsolille aakkosjärjestyksessä.
@@ -60,6 +61,6 @@ namespace Hello
       //konsolille
       Console.WriteLine("Terve: {0} ikäsi on: {1}", hlo.Nimi, hlo.Ika);
 
-    }
+    }*/
   }
 }
