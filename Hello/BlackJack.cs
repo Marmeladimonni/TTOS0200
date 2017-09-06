@@ -10,29 +10,30 @@ namespace Hello
         {
             int myNumber = 17;
             int theirNumber;
-            System.Console.WriteLine("*** BlackJack! ***");
-            System.Console.Write("Can you beat my number? Enter any number between 1-21: ");
+            Console.WriteLine("*** BlackJack! ***");
+            Console.Write("Can you beat my number? Enter any number between 1-21: ");
             //reading and converting 
-            theirNumber = System.Convert.ToInt32(System.Console.ReadLine());
+            theirNumber = Convert.ToInt32(Console.ReadLine());
             //comparing that given umber is valid
-            if (theirNumber < 1 || theirNumber > 21)
+            while (theirNumber < 1 || theirNumber > 21)
             {
                 Console.WriteLine("The given number is out of limits, try again.");
+
+            }
+            //comparing
+            if (theirNumber >= myNumber && theirNumber <= 21)
+            {
+                Console.WriteLine("You win.");
+                Console.Write("Can you beat my number? Enter any number between 1-21: ");
+                //reading and converting 
+                theirNumber = Convert.ToInt32(Console.ReadLine());
             }
             else
             {
-                //comparing
-                if (theirNumber >= myNumber && theirNumber <= 21)
-                {
-                    System.Console.WriteLine("You win.");
-                }
-                else
-                {
-                    System.Console.WriteLine("You lose.");
-                }
-                System.Console.Write("Press any key to continue...");
-                Console.ReadKey();
+                Console.WriteLine("You lose.");
             }
+            Console.Write("Press any key to continue...");
+            Console.ReadKey();
         }
     }
 }

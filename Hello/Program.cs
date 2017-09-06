@@ -18,7 +18,7 @@ namespace Hello
             //ShowNames();
             //staattisen ohjelman kutsuminen toisesta luokasta
             //Hello.Lotto.DrawLotto();
-            Hello.BlackJack.Play();
+            BlackJack.Play();
     }
 
     /*static void ShowNames()
