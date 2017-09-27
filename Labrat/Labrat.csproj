@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Lab1.cs" />
     <Compile Include="Lab3.cs" />
+    <Compile Include="Lab5.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
