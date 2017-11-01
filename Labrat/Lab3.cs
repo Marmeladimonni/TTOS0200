@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Labrat
 {
-    class Lab3
+    /*class Lab3
     {
         
         public static bool OnkoLuku(string syote)
@@ -26,5 +26,5 @@ namespace Labrat
 
             return false;
         }
-    }
+    }*/
 }

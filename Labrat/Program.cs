@@ -11,10 +11,10 @@ namespace Labrat
         public string syote;
         static void Main(string[] args)
         {
-            Console.Write("Anna luku: ");
+            /*Console.Write("Anna luku: ");
             Lab3.OnkoLuku(syote);
 
-            //Lab3.OnkoPvm();
+            //Lab3.OnkoPvm();*/
         }
     }
-}
+    }
